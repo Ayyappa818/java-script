@@ -75,7 +75,51 @@ for(var i=0;i<=people.length-1;i++)
         <script>
             for(var i=0;i<=people.length-1;i++)
             {
+               if(people[i]['gender']==['female']) 
+               {
+                console.log(people[i]['firstname'])
+               }
+            }
+        </script>
+
+        <script>
+            var increment=25000;
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['salary']>=25000)
+                {
+                    console.log(people[i]['firstname'],increment+3750)
                 
+                }
+            }
+            // console.log(increment+3750)
+        </script>
+        <script>
+            var a=prompt();
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['city']=='hyd')
+                {
+                    console.log(people[i]['firstname'])
+                }
+            }
+        </script>
+        <script>
+            var sum=0;
+            for(var i=0;i<=people.length-1;i++)
+            {
+                sum=sum+people[i]['salary'];
+            }
+            console.log(sum)
+        </script>
+        <script>
+
+            for(var i=0;i<=people.length-1;i++)
+            {
+                if(people[i]['age']>=25)
+                {
+                    console.log(people[i]['firstname']+people[i]['lastname'])
+                }
             }
         </script>
     </body>
