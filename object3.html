@@ -27,9 +27,11 @@
                 'social science':65
             };
             var p=0;
+            var sum=0;
             for(var a in marks)
             {
-                p=(marks[a]/500)*100;
+                sum=sum+marks[a];
+                p=(sum/500)*100;
             }
             console.log(p)
         </script>
